@@ -11,14 +11,13 @@ header{
 
 h1{
     font-size: 55px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
-p{
+#titolo{
     color: gray;
 }
-h1,p{
-    margin: 0;
-}
-
 #textblue{
     color: #0089ff;
 }
@@ -28,4 +27,8 @@ h1,p{
 #immaginiarticolo{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#textyellow{
+    background-color: yellow;
 }
