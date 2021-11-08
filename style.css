@@ -10,7 +10,7 @@ header{
 /* Titolo */
 
 h1{
-    font-size: 50px;
+    font-size: 55px;
 }
 p{
     color: gray;
@@ -21,4 +21,11 @@ h1,p{
 
 #textblue{
     color: #0089ff;
+}
+
+/* immagini articolo */
+
+#immaginiarticolo{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
