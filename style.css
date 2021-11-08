@@ -1,3 +1,6 @@
+body{
+    margin-left: 0;
+}
 header{
     background-color: cornflowerblue;
     background-image: url("img/pattern.png");
@@ -24,9 +27,18 @@ h1{
 
 /* immagini articolo */
 
-#immaginiarticolo{
+#bloccoimmagini{
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
+}
+#tim1,#tim2{
+width: 49%;
+height: 577px
+}
+
+#tim1{
+    ;
 }
 .textyellow{
     background-color: yellow;
@@ -34,6 +46,7 @@ h1{
 
 table{
     width: 100%;
+    table-layout: fixed;
     margin: auto;
     border-collapse: collapse;
     text-align: left;
@@ -45,4 +58,29 @@ thead{
 
 .rigablu1{
     background-color: #84eafc;
+}
+
+#testogrigio2{
+    color: grey;;
+}
+
+#immagine1{
+    height: 225px;
+    width: 300px;
+    background-image: url(img/monitor.jpg);
+    background-repeat: no-repeat;
+
+}
+
+#immagine2{
+    height: 225px;
+    width: 300px;
+    background-image: url(img/graph.jpg);
+    background-repeat: no-repeat;
+
+}
+.testoimmagine{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }

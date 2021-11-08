@@ -10,7 +10,7 @@
 <body>
 <!-- Header sito (logo + pattern) -->
     <header>
-            <img id="logo" src="img\logo.svg" alt="logo">      
+            <img id="logo" src="img/logo.svg" alt="logo">      
     </header>
 
     <section id="titolo">
@@ -21,16 +21,15 @@
         <span>il 10/10/2020</span>
     </section>
 
-    <section id="immaginiarticolo">
-
-        <img src="img/tim-1.jpg" alt="tim1">
-        <img src="img/tim-2.jpg" alt="tim2">
+    <figure id="bloccoimmagini">
+        <img id=tim1 src="img/tim-1.jpg" alt="tim1">
+        <img id=tim2 src="img/tim-2.jpg" alt="tim2">
         <figcaption>
             <p>1st Photo: John S. and james L. Knight Foundation, by Scott Henrichsen <br>
             2nd Photo,Wikimedia by Paul Clarke
             </p>
-            </figcaption>
-    </section>
+        </figcaption>
+    </figure>
     <!-- Primo paragrafo -->
     <section id="primoparagrafo">
         <p>
@@ -51,36 +50,56 @@
     <!-- tabella --> 
     <table>
         <thead>
-            <th>lorem ipsum dolor</th>
-            <th>lorem ipsum dolor</th>
-            <th>lorem ipsum dolor</th>
+            <tr>
+                <th>lorem ipsum dolor</th>
+                <th>lorem ipsum dolor</th>
+                <th>lorem ipsum dolor</th>
+            </tr>   
         </thead>
+        
         <tbody>
             <tr class="rigablu1">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime dignissimos perferendis ut quasi error libero placeat aliquid sequi rerum assumenda, inventore velit possimus voluptatum alias impedit! Dolorem, accusantium dicta.</td>
             </tr> 
             <tr>
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>  
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime dignissimos perferendis ut quasi error libero placeat aliquid sequi rerum assumenda, inventore velit possimus voluptatum alias impedit! Dolorem, accusantium dicta.</td>  
             </tr>
             <tr class="rigablu1">
                 <td>Lorem ipsum dolor</td>
                 <td>Lorem ipsum dolor</td>
-                <td>Lorem ipsum dolor</td>  
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime dignissimos perferendis ut quasi error libero placeat aliquid sequi rerum assumenda, inventore velit possimus voluptatum alias impedit! Dolorem, accusantium dicta.</td>  
             </tr>    
         </tbody>
-     </table>
+    </table>
 
      <!-- Secondo paragrafo -->
-     <section id="secondoparagrafo">
+    <section id="secondoparagrafo">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus reprehenderit eveniet culpa voluptas qui facere sint error consectetur atque ratione. Veniam laboriosam molestias repudiandae nihil corrupti ea ullam esse?
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero sequi eligendi a, totam quibusdam dicta repellendus molestias dolorem autem expedita porro aut cumque vitae reprehenderit ex culpa reiciendis? Dolorum, quas?
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="textyellow">Aut praesentium quisquam porro eos nostrum.</span> Minus deleniti placeat accusantium in voluptate quis consectetur doloribus pariatur optio! Neque vitae earum ut corrupti!
         </p>
     </section>
+
+    <footer>
+        <section id="testogrigio2">
+            <p>Potrebbero interessarti</p>
+        </section>
+
+        <!-- immagine 1 -->
+        <div id="immagine1">
+            <span class=testoimmagine>lorem ipsum dolor</span>
+        </div>
+
+        <!-- immagine 2 -->
+        <div id="immagine2">
+                <span class=testoimmagine>lorem ipsum dolor</span>
+        </div>
+    </footer>
+
 </body>
 </html>
